@@ -1,1 +1,1 @@
-Visual Studio project implementation of AES (Advanced Encryption Standard) algorithm in CUDA.
+Implementation of AES (Advanced Encryption Standard) algorithm in CUDA.
