@@ -1,0 +1,48 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\diplomski 09.2018\cuda\AES\AES>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2017 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\diplomski 09.2018\cuda\AES\AES\kernel.cu" 
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(554): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(565): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(577): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(589): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(600): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(606): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(612): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(618): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(671): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(681): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(554): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(565): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(577): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(589): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(600): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(606): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(612): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(618): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(671): warning : transfer of control bypasses initialization of:
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(681): warning : transfer of control bypasses initialization of:
+  kernel.cu
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(205): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '::size_t'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(205): note: consider using '%zd' in the format string
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(692): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(481): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '::size_t'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(481): note: consider using '%zd' in the format string
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(483): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '::size_t'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(483): note: consider using '%zd' in the format string
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(484): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '::size_t'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(484): note: consider using '%zd' in the format string
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(719): warning C4533: initialization of 'numBlocks2' is skipped by 'goto Error'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(633): note: see declaration of 'numBlocks2'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(719): note: see declaration of 'Error'
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(719): warning C4533: initialization of 'numBlocks' is skipped by 'goto Error'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(632): note: see declaration of 'numBlocks'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(719): note: see declaration of 'Error'
+D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(719): warning C4533: initialization of 'threadsPerBlock' is skipped by 'goto Error'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(631): note: see declaration of 'threadsPerBlock'
+  D:/diplomski 09.2018/cuda/AES/AES/kernel.cu(719): note: see declaration of 'Error'
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  AES.vcxproj -> D:\diplomski 09.2018\cuda\AES\x64\Release\AES.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "D:\diplomski 09.2018\cuda\AES\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.
